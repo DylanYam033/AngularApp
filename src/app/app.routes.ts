@@ -37,7 +37,7 @@ export const routes: Routes = [
 
       {
         path: 'user-list',
-        title: 'User List',
+        title: 'Users List',
         loadComponent: () => import('./dashboard/pages/users/users.component'),
       },
 
@@ -56,7 +56,7 @@ export const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/dashboard',
+    redirectTo: '/home',
     pathMatch: 'full'
   }
 
